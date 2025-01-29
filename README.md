@@ -89,6 +89,7 @@ retriever.play_audio(results[0])
 - **Multilingual Support**: Expanding to non-English transcripts and queries.
 - **Speaker Identification**: Adding speaker diarization to improve retrieval accuracy.
 - **Real-time Processing**: Enhancing efficiency for near-instantaneous search results.
+- **Frames**: split each and every frame of the video using opencv then use the Microsoft's BridgeTower Model and create embedding  in this approach the system will also retrieve frame for user query
 
 This system provides a powerful and intuitive way to search and retrieve audio segments, making large audio datasets more accessible and useful!
 
