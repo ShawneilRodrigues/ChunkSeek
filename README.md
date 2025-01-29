@@ -1,3 +1,5 @@
+[Watch the Demo](https://drive.google.com/file/d/1JE97Dn06LmXHq0Zez5K8gtE7wbwva3sn/view?usp=drive_link)
+
 # Audio Segment Search and Retrieval System
 
 This project implements an efficient and scalable **Audio Segment Search and Retrieval System**, enabling users to search for specific audio segments based on textual queries. The system is designed to process long audio files, segment them based on timestamped transcripts, and retrieve relevant audio clips using semantic search.
