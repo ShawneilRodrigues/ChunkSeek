@@ -1,0 +1,1 @@
+keyboard the character produced is actually mapped to a binary value in a character encoding like ascii or utf-8 binary is just a system for counting like the base 10 system you normally use when counting on your fingers but it

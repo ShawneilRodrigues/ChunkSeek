@@ -1,0 +1,1253 @@
+WEBVTT
+
+00:00:00.080 --> 00:00:03.439
+what's the first thing you should do
+
+00:00:01.360 --> 00:00:05.120
+when your code throws an error obviously
+
+00:00:03.439 --> 00:00:06.798
+you should change nothing and try to run
+
+00:00:05.120 --> 00:00:08.160
+it again a few times if that doesn't
+
+00:00:06.799 --> 00:00:09.759
+work you're gonna need a computer
+
+00:00:08.160 --> 00:00:11.280
+science degree the awesome thing about
+
+00:00:09.759 --> 00:00:13.359
+software engineering is that you can
+
+00:00:11.279 --> 00:00:15.119
+learn to code and get a high paying job
+
+00:00:13.359 --> 00:00:16.559
+while literally having no idea how
+
+00:00:15.119 --> 00:00:18.879
+anything actually works it all just
+
+00:00:16.559 --> 00:00:20.320
+feels like magic like a pilot driving a
+
+00:00:18.879 --> 00:00:23.519
+giant metal tube in the sky while
+
+00:00:20.320 --> 00:00:24.719
+knowing nothing about aerodynamics
+
+00:00:23.519 --> 00:00:26.719
+[Music]
+
+00:00:24.719 --> 00:00:28.399
+welcome to computer science 101 in
+
+00:00:26.719 --> 00:00:29.599
+today's video you'll learn the science
+
+00:00:28.399 --> 00:00:31.598
+behind the garbage code you've been
+
+00:00:29.599 --> 00:00:33.759
+writing by learning 101 different
+
+00:00:31.599 --> 00:00:35.759
+computer science terms and concepts this
+
+00:00:33.759 --> 00:00:37.679
+is a computer it's just a piece of tape
+
+00:00:35.759 --> 00:00:39.519
+that holds ones and zeros along with a
+
+00:00:37.679 --> 00:00:41.119
+device that can read and write to it
+
+00:00:39.520 --> 00:00:43.040
+it's called a turing machine and in
+
+00:00:41.119 --> 00:00:44.959
+theory it can compute anything like the
+
+00:00:43.039 --> 00:00:46.640
+graphics in this video or the algorithm
+
+00:00:44.960 --> 00:00:48.480
+that recommended that you watch it at
+
+00:00:46.640 --> 00:00:50.399
+the core of modern computers we have the
+
+00:00:48.479 --> 00:00:52.159
+central processing unit if we crack it
+
+00:00:50.399 --> 00:00:54.160
+open we find a piece of silicon that
+
+00:00:52.159 --> 00:00:55.919
+contains billions of tiny transistors
+
+00:00:54.159 --> 00:00:57.439
+which are like microscopic on off
+
+00:00:55.920 --> 00:00:59.120
+switches the value at one of these
+
+00:00:57.439 --> 00:01:00.878
+switches is called a bit and is the
+
+00:00:59.119 --> 00:01:03.280
+smallest piece of information a computer
+
+00:01:00.878 --> 00:01:05.118
+can use however one bit by itself is not
+
+00:01:03.280 --> 00:01:06.799
+very useful so they come in a package of
+
+00:01:05.118 --> 00:01:09.599
+eight called a byte one byte can
+
+00:01:06.799 --> 00:01:11.040
+represent 256 different values like all
+
+00:01:09.599 --> 00:01:12.798
+the characters that you type on your
+
+00:01:11.040 --> 00:01:14.479
+keyboard in fact when you type into your
+
+00:01:12.799 --> 00:01:16.560
+keyboard the character produced is
+
+00:01:14.478 --> 00:01:19.200
+actually mapped to a binary value in a
+
+00:01:16.560 --> 00:01:21.359
+character encoding like ascii or utf-8
+
+00:01:19.200 --> 00:01:23.200
+binary is just a system for counting
+
+00:01:21.359 --> 00:01:25.040
+like the base 10 system you normally use
+
+00:01:23.200 --> 00:01:27.200
+when counting on your fingers but it
+
+00:01:25.040 --> 00:01:29.040
+only has two characters one and zero
+
+00:01:27.200 --> 00:01:31.118
+humans have a hard time reading binary
+
+00:01:29.040 --> 00:01:33.680
+so most often it's represented in a
+
+00:01:31.118 --> 00:01:35.920
+hexadecimal base 16 format where ten
+
+00:01:33.680 --> 00:01:37.759
+numbers and six letters can represent a
+
+00:01:35.920 --> 00:01:39.280
+four bit group called a nibble as a
+
+00:01:37.759 --> 00:01:40.879
+developer when you write code in a
+
+00:01:39.280 --> 00:01:42.719
+programming language it will eventually
+
+00:01:40.879 --> 00:01:44.959
+be converted into machine code which is
+
+00:01:42.719 --> 00:01:47.039
+a binary format that can be decoded and
+
+00:01:44.959 --> 00:01:48.640
+executed by the cpu what it doesn't do
+
+00:01:47.040 --> 00:01:50.560
+though is store data for your
+
+00:01:48.640 --> 00:01:53.040
+applications for that computers have
+
+00:01:50.560 --> 00:01:55.040
+random access memory or ram it's like a
+
+00:01:53.040 --> 00:01:57.280
+neighborhood and inside of every house
+
+00:01:55.040 --> 00:01:59.600
+lives a byte every location has a memory
+
+00:01:57.280 --> 00:02:01.680
+address which the cpu can read and write
+
+00:01:59.599 --> 00:02:03.359
+to you can think of the cpu and ram as
+
+00:02:01.680 --> 00:02:05.200
+the brain of the computer but in order
+
+00:02:03.359 --> 00:02:07.359
+for a computer to be useful it needs to
+
+00:02:05.200 --> 00:02:09.039
+handle input and output an input device
+
+00:02:07.359 --> 00:02:10.560
+might be the keyboard and mouse while an
+
+00:02:09.038 --> 00:02:12.159
+output device might be your monitor
+
+00:02:10.560 --> 00:02:13.520
+luckily most developers don't need to
+
+00:02:12.159 --> 00:02:15.199
+worry about how this hardware fits
+
+00:02:13.520 --> 00:02:17.040
+together because we have operating
+
+00:02:15.199 --> 00:02:18.639
+system kernels like linux mac and
+
+00:02:17.039 --> 00:02:21.039
+windows that control all hardware
+
+00:02:18.639 --> 00:02:22.719
+resources via device drivers now to
+
+00:02:21.039 --> 00:02:24.560
+start hacking on the operating system
+
+00:02:22.719 --> 00:02:26.318
+your first entry point is the shell
+
+00:02:24.560 --> 00:02:28.400
+which is a program that exposes the
+
+00:02:26.318 --> 00:02:30.079
+operating system to the end user it's
+
+00:02:28.400 --> 00:02:32.319
+called a shell because it wraps the
+
+00:02:30.080 --> 00:02:34.319
+kernel it takes a line of text as input
+
+00:02:32.318 --> 00:02:36.318
+and produces an output this is called a
+
+00:02:34.318 --> 00:02:37.919
+command line interface not only can it
+
+00:02:36.318 --> 00:02:39.839
+connect to your own computer but with
+
+00:02:37.919 --> 00:02:41.598
+the secure shell protocol it can also
+
+00:02:39.840 --> 00:02:43.200
+connect to remote computers over a
+
+00:02:41.598 --> 00:02:44.878
+network now that you have access to the
+
+00:02:43.199 --> 00:02:46.560
+mainframe it's time to pick a
+
+00:02:44.878 --> 00:02:48.479
+programming language which is a tool
+
+00:02:46.560 --> 00:02:50.080
+that uses the abstraction principle to
+
+00:02:48.479 --> 00:02:52.079
+make computers practical to work with
+
+00:02:50.080 --> 00:02:54.080
+for humans by simplifying different
+
+00:02:52.080 --> 00:02:56.080
+systems layer by layer some languages
+
+00:02:54.080 --> 00:02:57.920
+like python are interpreted that means
+
+00:02:56.080 --> 00:02:59.760
+there's a program called an interpreter
+
+00:02:57.919 --> 00:03:02.238
+that will execute each line of code one
+
+00:02:59.759 --> 00:03:04.560
+by one other languages like c plus are
+
+00:03:02.239 --> 00:03:06.800
+compiled they use a compiler to convert
+
+00:03:04.560 --> 00:03:08.800
+the entire program into machine code in
+
+00:03:06.800 --> 00:03:10.879
+advance before the cpu attempts to
+
+00:03:08.800 --> 00:03:12.719
+execute it this results in an executable
+
+00:03:10.878 --> 00:03:14.878
+file that can be run by the operating
+
+00:03:12.719 --> 00:03:16.560
+system without any extra dependencies
+
+00:03:14.878 --> 00:03:18.639
+now every programming language has a
+
+00:03:16.560 --> 00:03:20.318
+variety of built-in data types to
+
+00:03:18.639 --> 00:03:22.079
+represent the data we're working with in
+
+00:03:20.318 --> 00:03:23.518
+our code instead of bytes we work with
+
+00:03:22.080 --> 00:03:25.200
+more human-friendly things like
+
+00:03:23.519 --> 00:03:26.879
+characters and numbers now the most
+
+00:03:25.199 --> 00:03:29.199
+fundamental way to use data in your
+
+00:03:26.878 --> 00:03:31.120
+application is to declare a variable
+
+00:03:29.199 --> 00:03:32.958
+this attaches a name to a data point
+
+00:03:31.120 --> 00:03:35.120
+allowing you to reuse it somewhere else
+
+00:03:32.959 --> 00:03:36.799
+in your code python is a dynamically
+
+00:03:35.120 --> 00:03:38.799
+typed language which means we don't need
+
+00:03:36.799 --> 00:03:40.799
+to tell the program exactly which data
+
+00:03:38.799 --> 00:03:42.719
+type is assigned to a variable it just
+
+00:03:40.799 --> 00:03:44.799
+figures it out automatically however
+
+00:03:42.719 --> 00:03:46.560
+other languages like c are statically
+
+00:03:44.799 --> 00:03:48.640
+typed and that means you need to specify
+
+00:03:46.560 --> 00:03:50.640
+the data type of a variable in your code
+
+00:03:48.639 --> 00:03:52.079
+when you define a variable its value is
+
+00:03:50.639 --> 00:03:53.919
+stored somewhere in memory on the
+
+00:03:52.080 --> 00:03:55.360
+hardware and you may need to allocate
+
+00:03:53.919 --> 00:03:57.759
+and free up memory throughout the
+
+00:03:55.360 --> 00:03:59.920
+program a pointer is a variable whose
+
+00:03:57.759 --> 00:04:02.158
+value is the memory address of another
+
+00:03:59.919 --> 00:04:04.238
+variable which can be used for low-level
+
+00:04:02.158 --> 00:04:06.239
+memory control many languages don't want
+
+00:04:04.239 --> 00:04:07.840
+to deal with low-level memory management
+
+00:04:06.239 --> 00:04:09.840
+and instead implement a garbage
+
+00:04:07.840 --> 00:04:11.920
+collector which automatically allocates
+
+00:04:09.840 --> 00:04:15.840
+and de-allocates memory when an object
+
+00:04:11.919 --> 00:04:15.839
+is no longer referenced in the program
+
+00:04:16.060 --> 00:04:21.280
+[Music]
+
+00:04:19.759 --> 00:04:22.960
+now the data types available are
+
+00:04:21.279 --> 00:04:24.399
+different in every programming language
+
+00:04:22.959 --> 00:04:26.319
+but typically you'll find int to
+
+00:04:24.399 --> 00:04:28.638
+represent whole numbers which may or may
+
+00:04:26.319 --> 00:04:30.319
+not be signed or unsigned to represent
+
+00:04:28.639 --> 00:04:32.240
+negative numbers as well when numbers
+
+00:04:30.319 --> 00:04:34.079
+require a decimal point they typically
+
+00:04:32.240 --> 00:04:35.600
+use the floating point type it's called
+
+00:04:34.079 --> 00:04:37.519
+a float because there's only enough
+
+00:04:35.600 --> 00:04:39.360
+memory to represent a certain range of
+
+00:04:37.519 --> 00:04:41.359
+numbers at a certain precision and is
+
+00:04:39.360 --> 00:04:43.120
+basically a form of scientific notation
+
+00:04:41.360 --> 00:04:44.960
+to make computers faster if you need
+
+00:04:43.120 --> 00:04:46.639
+more range or precision many languages
+
+00:04:44.959 --> 00:04:48.319
+also have a double that doubles the
+
+00:04:46.639 --> 00:04:49.680
+amount of memory used for the number now
+
+00:04:48.319 --> 00:04:51.360
+when it comes to characters you'll
+
+00:04:49.680 --> 00:04:53.280
+typically find the char data type to
+
+00:04:51.360 --> 00:04:55.600
+represent a single character or more
+
+00:04:53.279 --> 00:04:57.279
+commonly a string to represent multiple
+
+00:04:55.600 --> 00:04:58.800
+characters together ultimately these
+
+00:04:57.279 --> 00:05:00.239
+characters get stored in a memory
+
+00:04:58.800 --> 00:05:02.160
+address somewhere but they need to be
+
+00:05:00.240 --> 00:05:03.680
+stored in a certain order when the order
+
+00:05:02.160 --> 00:05:05.280
+starts with the most significant byte
+
+00:05:03.680 --> 00:05:07.600
+and the smallest memory address it's
+
+00:05:05.279 --> 00:05:09.198
+called big endian or vice versa if the
+
+00:05:07.600 --> 00:05:10.960
+least significant byte is stored in the
+
+00:05:09.199 --> 00:05:12.560
+smallest address it's called little
+
+00:05:10.959 --> 00:05:13.918
+endian when it comes to practical
+
+00:05:12.560 --> 00:05:15.839
+software engineering one of the most
+
+00:05:13.918 --> 00:05:18.000
+fundamental things we do is organize
+
+00:05:15.839 --> 00:05:19.918
+data into data structures the most
+
+00:05:18.000 --> 00:05:22.560
+useful data structure is probably the
+
+00:05:19.918 --> 00:05:24.560
+array or list just like a shopping list
+
+00:05:22.560 --> 00:05:27.038
+it organizes multiple data points in
+
+00:05:24.560 --> 00:05:29.439
+order however it also maintains an index
+
+00:05:27.038 --> 00:05:31.519
+of integers that starts at zero and goes
+
+00:05:29.439 --> 00:05:33.038
+up for every new item in the list that
+
+00:05:31.519 --> 00:05:35.120
+can be useful but you don't actually
+
+00:05:33.038 --> 00:05:36.959
+need an index to create a list of items
+
+00:05:35.120 --> 00:05:39.120
+another option is a linked list where
+
+00:05:36.959 --> 00:05:41.439
+each item has a pointer to the next item
+
+00:05:39.120 --> 00:05:43.439
+in front of it another option is a stack
+
+00:05:41.439 --> 00:05:45.120
+that follows the last in first out
+
+00:05:43.439 --> 00:05:46.800
+principle it's like stacking a set of
+
+00:05:45.120 --> 00:05:49.038
+plates then when you want to access the
+
+00:05:46.800 --> 00:05:51.120
+data you pop the last one off the top
+
+00:05:49.038 --> 00:05:53.038
+the inverse option is a queue which is
+
+00:05:51.120 --> 00:05:54.720
+first in first out just like when you
+
+00:05:53.038 --> 00:05:56.639
+get into the red line the first person
+
+00:05:54.720 --> 00:05:58.479
+there is the first one to be fed now
+
+00:05:56.639 --> 00:06:00.639
+another extremely useful data structure
+
+00:05:58.478 --> 00:06:02.800
+is the hash which might also be called a
+
+00:06:00.639 --> 00:06:04.639
+map or dictionary it's like an array but
+
+00:06:02.800 --> 00:06:06.160
+instead of an index of integers you
+
+00:06:04.639 --> 00:06:08.478
+define the keys that point to each
+
+00:06:06.160 --> 00:06:10.800
+individual item giving you a collection
+
+00:06:08.478 --> 00:06:12.879
+of key value pairs in many cases though
+
+00:06:10.800 --> 00:06:14.720
+it's not efficient to organize data in a
+
+00:06:12.879 --> 00:06:16.800
+linear way to address that problem we
+
+00:06:14.720 --> 00:06:18.639
+have trees which organize nodes together
+
+00:06:16.800 --> 00:06:20.000
+in a hierarchy that can often be
+
+00:06:18.639 --> 00:06:21.600
+traversed more quickly this can
+
+00:06:20.000 --> 00:06:23.600
+sometimes be too rigid of a data
+
+00:06:21.600 --> 00:06:25.360
+structure though so instead a graph can
+
+00:06:23.600 --> 00:06:27.280
+be created to connect multiple nodes
+
+00:06:25.360 --> 00:06:29.600
+together in a virtually unlimited number
+
+00:06:27.279 --> 00:06:31.599
+of ways a graph has a node for the data
+
+00:06:29.600 --> 00:06:33.280
+and an edge for the relationship between
+
+00:06:31.600 --> 00:06:34.960
+the data points data structures are
+
+00:06:33.279 --> 00:06:36.959
+essential but they don't do anything by
+
+00:06:34.959 --> 00:06:38.638
+themselves to do something useful you'll
+
+00:06:36.959 --> 00:06:40.879
+need to code up an algorithm which is
+
+00:06:38.639 --> 00:06:42.319
+just code that solves a problem i took
+
+00:06:40.879 --> 00:06:44.079
+the initiative in
+
+00:06:42.319 --> 00:06:45.919
+creating the internet in our code we
+
+00:06:44.079 --> 00:06:47.680
+have several mechanisms for implementing
+
+00:06:45.918 --> 00:06:49.839
+algorithms the most fundamental of which
+
+00:06:47.680 --> 00:06:52.079
+is a function which is a block of code
+
+00:06:49.839 --> 00:06:54.318
+that takes an input then does something
+
+00:06:52.079 --> 00:06:56.159
+and returns an output like a variable a
+
+00:06:54.319 --> 00:06:57.680
+function has a name and it can be called
+
+00:06:56.160 --> 00:06:59.280
+from other parts of your code with
+
+00:06:57.680 --> 00:07:00.879
+different input parameters called
+
+00:06:59.279 --> 00:07:02.959
+arguments one thing you might do in the
+
+00:07:00.879 --> 00:07:05.199
+function body is compare one value to
+
+00:07:02.959 --> 00:07:07.680
+another every language has a variety of
+
+00:07:05.199 --> 00:07:09.598
+built-in operators like equality greater
+
+00:07:07.680 --> 00:07:11.680
+than and less than that you can use to
+
+00:07:09.598 --> 00:07:14.319
+compare two values if a is greater than
+
+00:07:11.680 --> 00:07:15.918
+b then it forms a value of true but if b
+
+00:07:14.319 --> 00:07:18.000
+is greater than a then the value is
+
+00:07:15.918 --> 00:07:19.839
+false true false is what's known as a
+
+00:07:18.000 --> 00:07:21.839
+boolean data type and whenever your code
+
+00:07:19.839 --> 00:07:23.758
+produces a value like this it's known as
+
+00:07:21.839 --> 00:07:25.439
+an expression but not all code will
+
+00:07:23.759 --> 00:07:27.439
+produce a value sometimes your code will
+
+00:07:25.439 --> 00:07:29.519
+simply do something which is known as a
+
+00:07:27.439 --> 00:07:31.360
+statement a good example is the if
+
+00:07:29.519 --> 00:07:33.439
+statement which handles conditional
+
+00:07:31.360 --> 00:07:35.680
+logic for example if the condition is
+
+00:07:33.439 --> 00:07:37.598
+true it will execute this code otherwise
+
+00:07:35.680 --> 00:07:39.680
+it will short circuit and run the code
+
+00:07:37.598 --> 00:07:41.759
+inside of the else block another very
+
+00:07:39.680 --> 00:07:43.519
+common type of statement is a loop a
+
+00:07:41.759 --> 00:07:45.439
+while loop will run this block of code
+
+00:07:43.519 --> 00:07:47.279
+over and over again until the condition
+
+00:07:45.439 --> 00:07:49.199
+in the parentheses becomes false that
+
+00:07:47.279 --> 00:07:50.959
+can be useful but more often than not
+
+00:07:49.199 --> 00:07:53.038
+you'll want to loop over an iterable
+
+00:07:50.959 --> 00:07:54.799
+data type like an array most languages
+
+00:07:53.038 --> 00:07:56.639
+have a for loop that can run some code
+
+00:07:54.800 --> 00:07:58.478
+for every object in the array or
+
+00:07:56.639 --> 00:08:00.879
+iterable data structure now in some
+
+00:07:58.478 --> 00:08:02.478
+cases a function may not have an output
+
+00:08:00.879 --> 00:08:04.000
+which is generally called a void
+
+00:08:02.478 --> 00:08:05.439
+function an interesting thing about
+
+00:08:04.000 --> 00:08:07.439
+functions is that they can call
+
+00:08:05.439 --> 00:08:09.199
+themselves when a function calls itself
+
+00:08:07.439 --> 00:08:10.959
+it's called recursion because when done
+
+00:08:09.199 --> 00:08:13.038
+like this by default it will recurse
+
+00:08:10.959 --> 00:08:14.719
+forever creating an infinite loop that
+
+00:08:13.038 --> 00:08:16.240
+happens because when you call a function
+
+00:08:14.720 --> 00:08:18.319
+the programming language will put it
+
+00:08:16.240 --> 00:08:19.840
+into memory on what's known as the call
+
+00:08:18.319 --> 00:08:21.759
+stack which is a short-term chunk of
+
+00:08:19.839 --> 00:08:23.279
+memory for executing your code when a
+
+00:08:21.759 --> 00:08:24.800
+function keeps calling itself the
+
+00:08:23.279 --> 00:08:26.719
+language will keep pushing frames onto
+
+00:08:24.800 --> 00:08:28.560
+the call stack until you get a stack
+
+00:08:26.720 --> 00:08:30.400
+overflow error to avoid this your
+
+00:08:28.560 --> 00:08:32.000
+algorithm needs a base condition so it
+
+00:08:30.399 --> 00:08:33.439
+knows when to terminate the loop now
+
+00:08:32.000 --> 00:08:34.879
+when you write an algorithm you'll need
+
+00:08:33.440 --> 00:08:36.800
+to determine if it's any good and the
+
+00:08:34.879 --> 00:08:38.799
+system for doing that is called big-o
+
+00:08:36.799 --> 00:08:40.319
+notation it's a standard format for
+
+00:08:38.799 --> 00:08:42.319
+approximating the performance of an
+
+00:08:40.320 --> 00:08:44.080
+algorithm at scale it may reference time
+
+00:08:42.320 --> 00:08:46.240
+complexity which is how fast your
+
+00:08:44.080 --> 00:08:47.759
+algorithm will run and space complexity
+
+00:08:46.240 --> 00:08:49.839
+which deals with how much memory is
+
+00:08:47.759 --> 00:08:51.200
+required to run it developers have many
+
+00:08:49.839 --> 00:08:53.279
+different algorithm types at their
+
+00:08:51.200 --> 00:08:54.879
+disposal the most crude option is brute
+
+00:08:53.278 --> 00:08:56.879
+force where you might loop over every
+
+00:08:54.879 --> 00:08:58.639
+possible combination to hack somebody's
+
+00:08:56.879 --> 00:09:00.320
+credit card pin a more sophisticated
+
+00:08:58.639 --> 00:09:02.000
+approach might be divide and conquer
+
+00:09:00.320 --> 00:09:03.920
+like binary search where you cut the
+
+00:09:02.000 --> 00:09:05.519
+problem in half multiple times until you
+
+00:09:03.919 --> 00:09:07.919
+find what you're looking for another
+
+00:09:05.519 --> 00:09:09.839
+option is dynamic programming algorithms
+
+00:09:07.919 --> 00:09:11.679
+where a problem is broken down into
+
+00:09:09.839 --> 00:09:13.920
+multiple smaller sub-problems and the
+
+00:09:11.679 --> 00:09:16.000
+result of each computation is stored for
+
+00:09:13.919 --> 00:09:17.919
+later use using a technique called
+
+00:09:16.000 --> 00:09:19.360
+memoization that means if a function has
+
+00:09:17.919 --> 00:09:21.519
+already been called it will use the
+
+00:09:19.360 --> 00:09:23.278
+existing value instead of recomputing it
+
+00:09:21.519 --> 00:09:24.639
+again from scratch then we have greedy
+
+00:09:23.278 --> 00:09:26.320
+algorithms that will make the choice
+
+00:09:24.639 --> 00:09:28.080
+that is most beneficial in the short
+
+00:09:26.320 --> 00:09:29.760
+term without considering the problem as
+
+00:09:28.080 --> 00:09:31.680
+a whole one example of this is
+
+00:09:29.759 --> 00:09:33.519
+dijkstra's shortest path algorithm on
+
+00:09:31.679 --> 00:09:35.439
+the flip side we have backtracking
+
+00:09:33.519 --> 00:09:37.360
+algorithms which take a more incremental
+
+00:09:35.440 --> 00:09:39.600
+approach by looking at all the possible
+
+00:09:37.360 --> 00:09:41.200
+options like a rat and a maze exploring
+
+00:09:39.600 --> 00:09:42.800
+all the different potential paths now
+
+00:09:41.200 --> 00:09:44.399
+when it comes to implementing your code
+
+00:09:42.799 --> 00:09:46.559
+there are always multiple ways to get
+
+00:09:44.399 --> 00:09:48.399
+the job done one programming paradigm is
+
+00:09:46.559 --> 00:09:50.319
+declarative where your code describes
+
+00:09:48.399 --> 00:09:51.679
+what the program does and the outcome
+
+00:09:50.320 --> 00:09:53.519
+but doesn't care about things like
+
+00:09:51.679 --> 00:09:55.120
+control flow this style of programming
+
+00:09:53.519 --> 00:09:56.879
+is often associated with functional
+
+00:09:55.120 --> 00:09:58.879
+languages like haskell the other
+
+00:09:56.879 --> 00:10:00.879
+paradigm is imperative programming where
+
+00:09:58.879 --> 00:10:02.879
+your code uses statements like if and
+
+00:10:00.879 --> 00:10:04.799
+while providing explicit instructions
+
+00:10:02.879 --> 00:10:06.559
+about how to produce an outcome it's
+
+00:10:04.799 --> 00:10:08.559
+associated with procedural languages
+
+00:10:06.559 --> 00:10:10.958
+like c today most general purpose
+
+00:10:08.559 --> 00:10:13.039
+languages like python javascript kotlin
+
+00:10:10.958 --> 00:10:14.639
+swift and so on are multi-paradigm which
+
+00:10:13.039 --> 00:10:16.319
+means they support all these options at
+
+00:10:14.639 --> 00:10:18.240
+the same time in addition to
+
+00:10:16.320 --> 00:10:20.480
+object-oriented programming the idea
+
+00:10:18.240 --> 00:10:22.480
+behind oop is that you use classes to
+
+00:10:20.480 --> 00:10:24.399
+write a blueprint for the data or
+
+00:10:22.480 --> 00:10:26.240
+objects in your code a class can
+
+00:10:24.399 --> 00:10:28.159
+encapsulate variables which are commonly
+
+00:10:26.240 --> 00:10:29.839
+called properties as well as functions
+
+00:10:28.159 --> 00:10:31.919
+which are usually called methods in this
+
+00:10:29.839 --> 00:10:34.000
+context it's a common way to organize
+
+00:10:31.919 --> 00:10:35.519
+and reuse code because classes can share
+
+00:10:34.000 --> 00:10:37.919
+behaviors between each other through
+
+00:10:35.519 --> 00:10:39.839
+inheritance where a subclass can extend
+
+00:10:37.919 --> 00:10:41.679
+and override the behaviors of the parent
+
+00:10:39.839 --> 00:10:43.760
+class and it opens the door to all kinds
+
+00:10:41.679 --> 00:10:45.599
+of other ideas called design patterns
+
+00:10:43.759 --> 00:10:47.519
+now a class by itself doesn't actually
+
+00:10:45.600 --> 00:10:49.519
+do anything instead it's used to
+
+00:10:47.519 --> 00:10:51.039
+instantiate objects which are actual
+
+00:10:49.519 --> 00:10:52.959
+chunks of data that live in your
+
+00:10:51.039 --> 00:10:54.879
+computer's memory often you'll want to
+
+00:10:52.958 --> 00:10:56.319
+reference the same object over and over
+
+00:10:54.879 --> 00:10:58.320
+again in your code when data is
+
+00:10:56.320 --> 00:11:00.079
+long-lived it can't go in the call stack
+
+00:10:58.320 --> 00:11:01.839
+instead most languages have a separate
+
+00:11:00.078 --> 00:11:03.519
+area of memory called the heap which
+
+00:11:01.839 --> 00:11:05.519
+unlike the call stack can grow and
+
+00:11:03.519 --> 00:11:07.759
+shrink based on how your application is
+
+00:11:05.519 --> 00:11:09.440
+used it also allows you to pass objects
+
+00:11:07.759 --> 00:11:11.200
+by reference which means you can use the
+
+00:11:09.440 --> 00:11:12.959
+same object in multiple variables
+
+00:11:11.200 --> 00:11:14.240
+without increasing the memory footprint
+
+00:11:12.958 --> 00:11:15.919
+because it always points to the same
+
+00:11:14.240 --> 00:11:17.519
+chunk of memory in the heap now what's
+
+00:11:15.919 --> 00:11:18.958
+interesting is that if we go back to the
+
+00:11:17.519 --> 00:11:20.720
+cpu that we talked about in the
+
+00:11:18.958 --> 00:11:22.719
+beginning you'll notice that it contains
+
+00:11:20.720 --> 00:11:24.959
+multiple threads a thread takes the
+
+00:11:22.720 --> 00:11:26.879
+physical cpu core and breaks it into
+
+00:11:24.958 --> 00:11:28.319
+virtual cores that allow it to run code
+
+00:11:26.879 --> 00:11:29.679
+simultaneously there are some
+
+00:11:28.320 --> 00:11:31.278
+programming languages that support
+
+00:11:29.679 --> 00:11:33.199
+parallelism where you can write code
+
+00:11:31.278 --> 00:11:35.278
+that literally executes on two different
+
+00:11:33.200 --> 00:11:36.800
+threads at the same time however many
+
+00:11:35.278 --> 00:11:38.159
+languages out there are only single
+
+00:11:36.799 --> 00:11:40.078
+threaded but that doesn't mean they
+
+00:11:38.159 --> 00:11:41.679
+can't do two things at the same time
+
+00:11:40.078 --> 00:11:44.159
+instead they implement concurrency
+
+00:11:41.679 --> 00:11:45.838
+models like an event loop or co-routines
+
+00:11:44.159 --> 00:11:47.600
+that can pause or delay the normal
+
+00:11:45.839 --> 00:11:49.600
+execution of code to handle multiple
+
+00:11:47.600 --> 00:11:51.519
+jobs on a single thread at the same time
+
+00:11:49.600 --> 00:11:53.839
+now in modern computing we're rarely
+
+00:11:51.519 --> 00:11:55.360
+working with the bare metal cpu and ram
+
+00:11:53.839 --> 00:11:57.279
+instead we work in the cloud with a
+
+00:11:55.360 --> 00:11:59.360
+virtual machine which is just a piece of
+
+00:11:57.278 --> 00:12:01.278
+software that simulates hardware that
+
+00:11:59.360 --> 00:12:02.800
+allows us to take really big computers
+
+00:12:01.278 --> 00:12:04.799
+and split them up into a bunch of
+
+00:12:02.799 --> 00:12:06.240
+smaller virtual computers these machines
+
+00:12:04.799 --> 00:12:08.240
+are the backbone of the internet and are
+
+00:12:06.240 --> 00:12:10.399
+connected via the internet protocol each
+
+00:12:08.240 --> 00:12:12.240
+machine has a unique ip address to
+
+00:12:10.399 --> 00:12:14.720
+identify it on the network that ip
+
+00:12:12.240 --> 00:12:16.480
+address is usually alias to a url that
+
+00:12:14.720 --> 00:12:18.320
+is registered in a global database
+
+00:12:16.480 --> 00:12:20.399
+called the domain name service now to
+
+00:12:18.320 --> 00:12:22.879
+establish a connection the two computers
+
+00:12:20.399 --> 00:12:24.799
+will perform a tcp handshake which will
+
+00:12:22.879 --> 00:12:26.958
+allow them to exchange messages called
+
+00:12:24.799 --> 00:12:29.519
+packets on top of that there's usually a
+
+00:12:26.958 --> 00:12:31.439
+security layer like ssl to encrypt and
+
+00:12:29.519 --> 00:12:33.360
+decrypt the messages over the network
+
+00:12:31.440 --> 00:12:35.120
+now the two computers can securely share
+
+00:12:33.360 --> 00:12:37.200
+data with the hypertext transfer
+
+00:12:35.120 --> 00:12:38.959
+protocol the client may request a web
+
+00:12:37.200 --> 00:12:41.200
+page then the server will respond with
+
+00:12:38.958 --> 00:12:43.278
+some html modern servers provide a
+
+00:12:41.200 --> 00:12:45.040
+standardized way for a client to request
+
+00:12:43.278 --> 00:12:47.360
+data which is called an application
+
+00:12:45.039 --> 00:12:49.599
+programming interface or api the most
+
+00:12:47.360 --> 00:12:51.360
+common architecture is rest where urls
+
+00:12:49.600 --> 00:12:53.120
+are mapped to different data entities
+
+00:12:51.360 --> 00:12:55.278
+available on the server and that brings
+
+00:12:53.120 --> 00:12:56.720
+us to our final topic mother effin
+
+00:12:55.278 --> 00:12:58.559
+printers you're gonna need to learn how
+
+00:12:56.720 --> 00:12:59.920
+these things work inside and out because
+
+00:12:58.559 --> 00:13:01.518
+every time you go to grandma's house
+
+00:12:59.919 --> 00:13:03.120
+she's going to ask you to fix it which
+
+00:13:01.519 --> 00:13:05.120
+shouldn't be a problem for a computer
+
+00:13:03.120 --> 00:13:09.120
+scientist like you thanks for watching
+
+00:13:05.120 --> 00:13:09.120
+and i will see you in the next one
+

@@ -1,0 +1,1 @@
+up for every new item in the list that can be useful but you don't actually need an index to create a list of items another option is a linked list where each item has a pointer to the next item in front of it another option is a stack

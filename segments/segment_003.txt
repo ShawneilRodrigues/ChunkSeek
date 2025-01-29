@@ -1,0 +1,1 @@
+that holds ones and zeros along with a device that can read and write to it it's called a turing machine and in theory it can compute anything like the graphics in this video or the algorithm that recommended that you watch it at the core of modern computers we have the

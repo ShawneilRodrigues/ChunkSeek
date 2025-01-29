@@ -1,0 +1,1 @@
+useful data structure is probably the array or list just like a shopping list it organizes multiple data points in order however it also maintains an index of integers that starts at zero and goes

@@ -1,0 +1,1 @@
+because it always points to the same chunk of memory in the heap now what's interesting is that if we go back to the cpu that we talked about in the beginning you'll notice that it contains multiple threads a thread takes the physical cpu core and breaks it into

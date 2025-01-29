@@ -1,0 +1,1 @@
+applications for that computers have random access memory or ram it's like a neighborhood and inside of every house lives a byte every location has a memory address which the cpu can read and write to you can think of the cpu and ram as

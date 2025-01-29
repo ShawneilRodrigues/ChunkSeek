@@ -1,0 +1,1 @@
+and an edge for the relationship between the data points data structures are essential but they don't do anything by themselves to do something useful you'll need to code up an algorithm which is just code that solves a problem i took the initiative in

@@ -1,0 +1,1 @@
+when you write an algorithm you'll need to determine if it's any good and the system for doing that is called big-o notation it's a standard format for approximating the performance of an algorithm at scale it may reference time complexity which is how fast your

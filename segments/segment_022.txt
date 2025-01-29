@@ -1,0 +1,1 @@
+negative numbers as well when numbers require a decimal point they typically use the floating point type it's called a float because there's only enough memory to represent a certain range of numbers at a certain precision and is basically a form of scientific notation

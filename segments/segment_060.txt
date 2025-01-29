@@ -1,0 +1,1 @@
+address is usually alias to a url that is registered in a global database called the domain name service now to establish a connection the two computers will perform a tcp handshake which will allow them to exchange messages called

@@ -1,0 +1,1 @@
+boolean data type and whenever your code produces a value like this it's known as an expression but not all code will produce a value sometimes your code will simply do something which is known as a statement a good example is the if

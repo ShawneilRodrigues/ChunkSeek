@@ -1,0 +1,1 @@
+can use however one bit by itself is not very useful so they come in a package of eight called a byte one byte can represent 256 different values like all the characters that you type on your keyboard in fact when you type into your

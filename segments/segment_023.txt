@@ -1,0 +1,1 @@
+to make computers faster if you need more range or precision many languages also have a double that doubles the amount of memory used for the number now when it comes to characters you'll typically find the char data type to represent a single character or more

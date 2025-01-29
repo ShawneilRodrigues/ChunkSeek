@@ -1,0 +1,1 @@
+inheritance where a subclass can extend and override the behaviors of the parent class and it opens the door to all kinds of other ideas called design patterns now a class by itself doesn't actually do anything instead it's used to

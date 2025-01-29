@@ -1,0 +1,1 @@
+instantiate objects which are actual chunks of data that live in your computer's memory often you'll want to reference the same object over and over again in your code when data is long-lived it can't go in the call stack instead most languages have a separate

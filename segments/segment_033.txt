@@ -1,0 +1,1 @@
+creating the internet in our code we have several mechanisms for implementing algorithms the most fundamental of which is a function which is a block of code that takes an input then does something and returns an output like a variable a

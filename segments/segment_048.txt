@@ -1,0 +1,1 @@
+what the program does and the outcome but doesn't care about things like control flow this style of programming is often associated with functional languages like haskell the other paradigm is imperative programming where your code uses statements like if and

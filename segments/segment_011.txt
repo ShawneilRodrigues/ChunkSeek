@@ -1,0 +1,1 @@
+together because we have operating system kernels like linux mac and windows that control all hardware resources via device drivers now to start hacking on the operating system your first entry point is the shell which is a program that exposes the

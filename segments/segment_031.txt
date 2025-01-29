@@ -1,0 +1,1 @@
+in a hierarchy that can often be traversed more quickly this can sometimes be too rigid of a data structure though so instead a graph can be created to connect multiple nodes together in a virtually unlimited number of ways a graph has a node for the data

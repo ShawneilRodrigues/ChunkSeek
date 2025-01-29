@@ -1,0 +1,1 @@
+now every programming language has a variety of built-in data types to represent the data we're working with in our code instead of bytes we work with more human-friendly things like characters and numbers now the most fundamental way to use data in your

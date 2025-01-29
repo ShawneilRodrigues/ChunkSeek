@@ -1,0 +1,1 @@
+[Music] now the data types available are different in every programming language but typically you'll find int to represent whole numbers which may or may not be signed or unsigned to represent

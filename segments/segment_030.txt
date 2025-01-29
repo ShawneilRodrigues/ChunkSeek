@@ -1,0 +1,1 @@
+define the keys that point to each individual item giving you a collection of key value pairs in many cases though it's not efficient to organize data in a linear way to address that problem we have trees which organize nodes together

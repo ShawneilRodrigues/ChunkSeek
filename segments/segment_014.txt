@@ -1,0 +1,1 @@
+for humans by simplifying different systems layer by layer some languages like python are interpreted that means there's a program called an interpreter that will execute each line of code one by one other languages like c plus are

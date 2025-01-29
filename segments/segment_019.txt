@@ -1,0 +1,1 @@
+stored somewhere in memory on the hardware and you may need to allocate and free up memory throughout the program a pointer is a variable whose value is the memory address of another variable which can be used for low-level

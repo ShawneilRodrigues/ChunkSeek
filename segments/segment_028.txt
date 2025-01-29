@@ -1,0 +1,1 @@
+that follows the last in first out principle it's like stacking a set of plates then when you want to access the data you pop the last one off the top the inverse option is a queue which is first in first out just like when you

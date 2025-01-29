@@ -1,0 +1,1 @@
+the secure shell protocol it can also connect to remote computers over a network now that you have access to the mainframe it's time to pick a programming language which is a tool that uses the abstraction principle to make computers practical to work with

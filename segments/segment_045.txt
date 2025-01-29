@@ -1,0 +1,1 @@
+multiple smaller sub-problems and the result of each computation is stored for later use using a technique called memoization that means if a function has already been called it will use the existing value instead of recomputing it again from scratch then we have greedy

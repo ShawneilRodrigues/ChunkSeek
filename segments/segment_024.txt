@@ -1,0 +1,1 @@
+commonly a string to represent multiple characters together ultimately these characters get stored in a memory address somewhere but they need to be stored in a certain order when the order starts with the most significant byte and the smallest memory address it's

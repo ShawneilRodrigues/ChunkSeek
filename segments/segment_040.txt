@@ -1,0 +1,1 @@
+it's called recursion because when done like this by default it will recurse forever creating an infinite loop that happens because when you call a function the programming language will put it into memory on what's known as the call stack which is a short-term chunk of

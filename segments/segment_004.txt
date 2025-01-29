@@ -1,0 +1,1 @@
+central processing unit if we crack it open we find a piece of silicon that contains billions of tiny transistors which are like microscopic on off switches the value at one of these switches is called a bit and is the smallest piece of information a computer

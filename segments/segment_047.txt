@@ -1,0 +1,1 @@
+approach by looking at all the possible options like a rat and a maze exploring all the different potential paths now when it comes to implementing your code there are always multiple ways to get the job done one programming paradigm is declarative where your code describes

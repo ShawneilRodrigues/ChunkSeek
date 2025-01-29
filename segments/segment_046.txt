@@ -1,0 +1,1 @@
+algorithms that will make the choice that is most beneficial in the short term without considering the problem as a whole one example of this is dijkstra's shortest path algorithm on the flip side we have backtracking algorithms which take a more incremental

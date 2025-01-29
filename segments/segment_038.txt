@@ -1,0 +1,1 @@
+while loop will run this block of code over and over again until the condition in the parentheses becomes false that can be useful but more often than not you'll want to loop over an iterable data type like an array most languages have a for loop that can run some code

@@ -1,0 +1,1 @@
+packets on top of that there's usually a security layer like ssl to encrypt and decrypt the messages over the network now the two computers can securely share data with the hypertext transfer protocol the client may request a web

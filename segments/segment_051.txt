@@ -1,0 +1,1 @@
+encapsulate variables which are commonly called properties as well as functions which are usually called methods in this context it's a common way to organize and reuse code because classes can share behaviors between each other through

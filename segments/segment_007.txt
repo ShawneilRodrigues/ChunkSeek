@@ -1,0 +1,1 @@
+only has two characters one and zero humans have a hard time reading binary so most often it's represented in a hexadecimal base 16 format where ten numbers and six letters can represent a four bit group called a nibble as a

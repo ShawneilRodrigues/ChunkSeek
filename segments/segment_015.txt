@@ -1,0 +1,1 @@
+compiled they use a compiler to convert the entire program into machine code in advance before the cpu attempts to execute it this results in an executable file that can be run by the operating system without any extra dependencies

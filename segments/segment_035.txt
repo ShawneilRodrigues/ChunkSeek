@@ -1,0 +1,1 @@
+built-in operators like equality greater than and less than that you can use to compare two values if a is greater than b then it forms a value of true but if b is greater than a then the value is false true false is what's known as a

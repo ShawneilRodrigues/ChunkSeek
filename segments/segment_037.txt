@@ -1,0 +1,1 @@
+statement which handles conditional logic for example if the condition is true it will execute this code otherwise it will short circuit and run the code inside of the else block another very common type of statement is a loop a

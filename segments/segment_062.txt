@@ -1,0 +1,1 @@
+page then the server will respond with some html modern servers provide a standardized way for a client to request data which is called an application programming interface or api the most common architecture is rest where urls

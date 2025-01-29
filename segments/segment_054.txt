@@ -1,0 +1,1 @@
+area of memory called the heap which unlike the call stack can grow and shrink based on how your application is used it also allows you to pass objects by reference which means you can use the same object in multiple variables without increasing the memory footprint

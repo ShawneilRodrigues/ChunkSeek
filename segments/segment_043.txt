@@ -1,0 +1,1 @@
+algorithm will run and space complexity which deals with how much memory is required to run it developers have many different algorithm types at their disposal the most crude option is brute force where you might loop over every possible combination to hack somebody's

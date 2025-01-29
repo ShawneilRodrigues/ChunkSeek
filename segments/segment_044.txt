@@ -1,0 +1,1 @@
+credit card pin a more sophisticated approach might be divide and conquer like binary search where you cut the problem in half multiple times until you find what you're looking for another option is dynamic programming algorithms where a problem is broken down into

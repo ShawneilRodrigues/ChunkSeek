@@ -1,0 +1,1 @@
+function has a name and it can be called from other parts of your code with different input parameters called arguments one thing you might do in the function body is compare one value to another every language has a variety of

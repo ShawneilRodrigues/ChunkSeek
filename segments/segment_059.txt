@@ -1,0 +1,1 @@
+and split them up into a bunch of smaller virtual computers these machines are the backbone of the internet and are connected via the internet protocol each machine has a unique ip address to identify it on the network that ip

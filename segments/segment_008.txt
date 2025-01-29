@@ -1,0 +1,1 @@
+developer when you write code in a programming language it will eventually be converted into machine code which is a binary format that can be decoded and executed by the cpu what it doesn't do though is store data for your

@@ -1,0 +1,1 @@
+threaded but that doesn't mean they can't do two things at the same time instead they implement concurrency models like an event loop or co-routines that can pause or delay the normal execution of code to handle multiple jobs on a single thread at the same time

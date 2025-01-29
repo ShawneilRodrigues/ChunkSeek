@@ -1,0 +1,1 @@
+means they support all these options at the same time in addition to object-oriented programming the idea behind oop is that you use classes to write a blueprint for the data or objects in your code a class can

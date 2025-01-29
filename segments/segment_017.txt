@@ -1,0 +1,1 @@
+application is to declare a variable this attaches a name to a data point allowing you to reuse it somewhere else in your code python is a dynamically typed language which means we don't need to tell the program exactly which data

@@ -1,0 +1,1 @@
+what's the first thing you should do when your code throws an error obviously you should change nothing and try to run it again a few times if that doesn't work you're gonna need a computer science degree the awesome thing about software engineering is that you can

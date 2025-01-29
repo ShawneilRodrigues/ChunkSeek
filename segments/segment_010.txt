@@ -1,0 +1,1 @@
+the brain of the computer but in order for a computer to be useful it needs to handle input and output an input device might be the keyboard and mouse while an output device might be your monitor luckily most developers don't need to worry about how this hardware fits

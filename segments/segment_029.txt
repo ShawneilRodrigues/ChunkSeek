@@ -1,0 +1,1 @@
+get into the red line the first person there is the first one to be fed now another extremely useful data structure is the hash which might also be called a map or dictionary it's like an array but instead of an index of integers you

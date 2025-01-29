@@ -1,0 +1,1 @@
+operating system to the end user it's called a shell because it wraps the kernel it takes a line of text as input and produces an output this is called a command line interface not only can it connect to your own computer but with

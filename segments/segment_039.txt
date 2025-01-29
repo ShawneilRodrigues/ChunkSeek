@@ -1,0 +1,1 @@
+for every object in the array or iterable data structure now in some cases a function may not have an output which is generally called a void function an interesting thing about functions is that they can call themselves when a function calls itself

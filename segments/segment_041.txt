@@ -1,0 +1,1 @@
+memory for executing your code when a function keeps calling itself the language will keep pushing frames onto the call stack until you get a stack overflow error to avoid this your algorithm needs a base condition so it knows when to terminate the loop now

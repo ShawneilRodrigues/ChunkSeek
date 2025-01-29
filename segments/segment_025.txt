@@ -1,0 +1,1 @@
+called big endian or vice versa if the least significant byte is stored in the smallest address it's called little endian when it comes to practical software engineering one of the most fundamental things we do is organize data into data structures the most

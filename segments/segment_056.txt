@@ -1,0 +1,1 @@
+virtual cores that allow it to run code simultaneously there are some programming languages that support parallelism where you can write code that literally executes on two different threads at the same time however many languages out there are only single

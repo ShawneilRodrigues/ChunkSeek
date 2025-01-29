@@ -1,0 +1,1 @@
+type is assigned to a variable it just figures it out automatically however other languages like c are statically typed and that means you need to specify the data type of a variable in your code when you define a variable its value is

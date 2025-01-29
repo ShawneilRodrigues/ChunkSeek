@@ -1,0 +1,1 @@
+now in modern computing we're rarely working with the bare metal cpu and ram instead we work in the cloud with a virtual machine which is just a piece of software that simulates hardware that allows us to take really big computers
